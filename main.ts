@@ -1,3 +1,4 @@
+tiles.setCurrentTilemap(tilemap`level1`)
 let mySprite = sprites.create(img`
     . . . . . f f 4 4 f f . . . . . 
     . . . . f 5 4 5 5 4 5 f . . . . 
