@@ -1,3 +1,7 @@
+info.onScore(20, function () {
+    game.setGameOverMessage(true, "Ganastes")
+    game.setGameOverEffect(true, effects.confetti)
+})
 tiles.setCurrentTilemap(tilemap`level1`)
 let mySprite = sprites.create(img`
     . . . . . f f 4 4 f f . . . . . 
@@ -19,4 +23,3 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
 scene.cameraFollowSprite(mySprite)
-music.play(music.createSong(hex`00780004080200`), music.PlaybackMode.UntilDone)
