@@ -1,8 +1,9 @@
 {
-    "name": "DONUT HUNTER PRINCESS",
+    "name": "DONUT HUNTER PRINCESS 1",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0"
     },
     "files": [
         "main.blocks",
